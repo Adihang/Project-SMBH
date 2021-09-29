@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/se1title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="First Flight"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/se1bu1"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FF0000"
+        android:text="공산주의"
+        app:layout_constraintBottom_toTopOf="@+id/se1bu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/se1bu2"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="68dp"
+        android:background="#0027FF"
+        android:text="자본주의"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/se1enbu"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="12dp"
+        android:text="확인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/se1mai1"
+        android:layout_width="304dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="20dp"
+        android:text=" 특수 상대성이론. 쌍둥이 역설로 유명하며, 빠르게 움직이는 물체는 상대적으로 느린 물체에 비해 시간이 느리게 흘러간다는 이론이다.&#10; 그렇다면 모든 행성들과 물질의 회전속도가 같은 은하계에서 이동속도가 가장 느린 은하계의 중심에 가장 가까운 행성으로 간다면 시간은 빠르게 흘러갈 것이다.&#10; 그리하여 빠른 시간을 이용하여 과학기술을 발전시킨다면, 다른 외계종족들보다 더 우월한 과학기술을 가질 수 있지 않을까?&#10; 우주탐험이 가능해진 지금 이 순간이야말로 이 이론을 시험해볼 최적의 타이밍이다.........."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/se1title" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:text="사회체제 선택"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/se1bu1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/se1cobu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/se1mai1"
+        android:visibility="invisible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
